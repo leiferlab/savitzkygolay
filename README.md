@@ -6,4 +6,6 @@ To install, clone the repository and
 python setup.py install --user
 ```
 
-Get the filter with the function ```get_filter(size, polynomial order, derivative order, dimensionality)```. To keep the repository lightweight, only a few filters are provided (all the 1D and 3D filters together are 150 MB). If you need additional ones, ask Francesco. 
+Get the derivatives with the function ```get_*D_derivative()```. For the 1D case, the arguments are ```(size, polynomial order, derivative order)```. For the N-dimensional case, ```size``` and ```polynomial order``` are repeated for N times.
+
+To keep the repository lightweight, only a few filters are provided (all the 1D and 3D filters together are 150 MB). If you need additional ones, ask Francesco. 

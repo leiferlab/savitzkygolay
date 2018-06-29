@@ -7,7 +7,7 @@ def get_1D_filter():
 def get_3D_filter():
     return 0
 
-def get_1D_derivative(mu, poly, order, d):
+def get_1D_derivative(mu, poly, order):
     '''Loads the Savitzky Golay filter of size mu with poly-th polynomial order
     and dimensionality d.'''
     
@@ -44,12 +44,12 @@ def get_1D_derivative(mu, poly, order, d):
     
     return C
         
-def get_3D_derivative(mu, nu, rho, poly, order, d):
+def get_3D_derivative(mu, nu, rho, polyx, polyy, polyz, order):
 
     folder = 'filters/'
 
     f = open('3DSavitzkyGolayFilters/CC_00'+str(mu)+'x00'+str(nu)+'x00'+ \
-        str(rho)+'_00'+str(poly)+'x00'+str(poly)+'x00'+str(poly)+'.dat','r')
+        str(rho)+'_00'+str(polyx)+'x00'+str(polyy)+'x00'+str(polyz)+'.dat','r')
         
     #Go through file
     while 1:
