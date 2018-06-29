@@ -46,7 +46,7 @@ def get_1D_derivative(mu, poly, order):
         
 def get_3D_derivative(mu, nu, rho, polyx, polyy, polyz, order):
 
-    folder = 'filters/'
+    folder = pkg_resources.resource_filename('savitzkygolay', 'filters/')
 
     f = open('3DSavitzkyGolayFilters/CC_00'+str(mu)+'x00'+str(nu)+'x00'+ \
         str(rho)+'_00'+str(polyx)+'x00'+str(polyy)+'x00'+str(polyz)+'.dat','r')
