@@ -1,0 +1,37 @@
+# ================================== Start of File ====================================
+# Spatial dimensions = 1
+# Kernel size = 5
+# Polynomial order = 3
+# Size of the convolution coefficient matrix = 4x5
+#
+# Column# 1:
+#    S/A => The left and the right halves of the row are symmetric(S)/anti-symmetric(A) about the middle column.
+#           If symmetric elements on the right half, their signs are same as the corresponding elements on the left side.
+#           If anti-symmetric elements, the signs are opposite.
+# Column# 2~3 = the left-half columns of the row.
+# Column# 4 = the middle column of the row.
+# Column# 5~6, which are the right-half columns, are not stored, because they are symmetric/anti-symmetric
+#           of the elements in the column# 3~2, respectively.
+# Matrix starts:
+	S	-8.571429E-02	+3.428571E-01	+4.857143E-01
+	A	+8.333333E-02	-6.666667E-01	+0.000000E+00
+	S	+1.428571E-01	-7.142857E-02	-1.428571E-01
+	A	-8.333333E-02	+1.666667E-01	+0.000000E+00
+# Matrix ends.
+#
+#
+# ---------------------------------- LICENSE NOTICE -----------------------------------
+# THIS DATA IS RELEASED UNDER THE CREATIVE COMMONS LICENSE "CC BY-NC-SA 4.0".
+#   This license lets you remix, tweak, and build upon this work non-commercially,
+#   as long as you credit me and license your new creations under the terms identical
+#   to the current license.
+# SEE "https://creativecommons.org/licenses/by-nc-sa/4.0" FOR DETAILS.
+#
+# RELEASED BY: Chandra Shekhar
+#      E-mail: chandraiitk[AT]yahoo[DOT]co[DOT]in
+#    Homepage: https://sites.google.com/site/chandraacads
+# FOR ANY QUESTION OR COMMENT, OR FOR A COMMERCIAL LICENSE, PLEASE EMAIL ME.
+#
+# For additional details, please visit my homepage.
+#
+# ==================================== End of File ====================================
