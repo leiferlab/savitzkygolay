@@ -1,3 +1,3 @@
 __all__ = ['savitzkygolay']
 
-from . import savitzkygolay
+from .savitzkygolay import *
