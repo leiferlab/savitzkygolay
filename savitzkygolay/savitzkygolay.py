@@ -7,7 +7,7 @@ def get_1D_filter():
 def get_3D_filter():
     return 0
 
-def get_1D_derivative(mu, poly, order):
+def get_1D_derivative(mu=5, poly=3, order=2):
     '''Loads the Savitzky Golay filter of size mu with poly-th polynomial order
     and dimensionality d.'''
     
