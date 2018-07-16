@@ -1,6 +1,12 @@
 # savitzkygolay
 Savitzky-Golay filters loaded from the files produced by Shekhar, *On Simplified Application of Multidimensional Savitzky-Golay Filters and Differentiators*, Progress in Applied Mathematics in Science and Engineering, Bali, Indonesia (2015)
 
+The module depends on numpy, scipy, and opencv. To install opencv
+```
+python -m pip install opencv-python 
+```
+appending ```--user``` if you have restricted permission on the machine.
+
 To install, clone the repository and
 ```
 python setup.py install --user
