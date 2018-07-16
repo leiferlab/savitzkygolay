@@ -1,0 +1,37 @@
+# ================================== Start of File ====================================
+# Spatial dimensions = 1
+# Kernel size = 23
+# Polynomial order = 3
+# Size of the convolution coefficient matrix = 4x23
+#
+# Column# 1:
+#    S/A => The left and the right halves of the row are symmetric(S)/anti-symmetric(A) about the middle column.
+#           If symmetric elements on the right half, their signs are same as the corresponding elements on the left side.
+#           If anti-symmetric elements, the signs are opposite.
+# Column# 2~12 = the left-half columns of the row.
+# Column# 13 = the middle column of the row.
+# Column# 14~24, which are the right-half columns, are not stored, because they are symmetric/anti-symmetric
+#           of the elements in the column# 12~2, respectively.
+# Matrix starts:
+	S	-5.217391E-02	-2.608696E-02	-2.484472E-03	+1.863354E-02	+3.726708E-02	+5.341615E-02	+6.708075E-02	+7.826087E-02	+8.695652E-02	+9.316770E-02	+9.689441E-02	+9.813665E-02
+	A	+1.995541E-02	+4.129928E-03	-7.692308E-03	-1.591162E-02	-2.092835E-02	-2.314280E-02	-2.295531E-02	-2.076619E-02	-1.697578E-02	-1.198439E-02	-6.192358E-03	+0.000000E+00
+	S	+2.173913E-03	+1.581028E-03	+1.044608E-03	+5.646527E-04	+1.411632E-04	-2.258611E-04	-5.364201E-04	-7.905138E-04	-9.881423E-04	-1.129305E-03	-1.214003E-03	-1.242236E-03
+	A	-3.901895E-04	-1.773589E-04	-1.520219E-05	+1.013479E-04	+1.773589E-04	+2.178980E-04	+2.280328E-04	+2.128306E-04	+1.773589E-04	+1.266849E-04	+6.587615E-05	+0.000000E+00
+# Matrix ends.
+#
+#
+# ---------------------------------- LICENSE NOTICE -----------------------------------
+# THIS DATA IS RELEASED UNDER THE CREATIVE COMMONS LICENSE "CC BY-NC-SA 4.0".
+#   This license lets you remix, tweak, and build upon this work non-commercially,
+#   as long as you credit me and license your new creations under the terms identical
+#   to the current license.
+# SEE "https://creativecommons.org/licenses/by-nc-sa/4.0" FOR DETAILS.
+#
+# RELEASED BY: Chandra Shekhar
+#      E-mail: chandraiitk[AT]yahoo[DOT]co[DOT]in
+#    Homepage: https://sites.google.com/site/chandraacads
+# FOR ANY QUESTION OR COMMENT, OR FOR A COMMERCIAL LICENSE, PLEASE EMAIL ME.
+#
+# For additional details, please visit my homepage.
+#
+# ==================================== End of File ====================================

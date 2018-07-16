@@ -1,0 +1,35 @@
+# ================================== Start of File ====================================
+# Spatial dimensions = 1
+# Kernel size = 63
+# Polynomial order = 1
+# Size of the convolution coefficient matrix = 2x63
+#
+# Column# 1:
+#    S/A => The left and the right halves of the row are symmetric(S)/anti-symmetric(A) about the middle column.
+#           If symmetric elements on the right half, their signs are same as the corresponding elements on the left side.
+#           If anti-symmetric elements, the signs are opposite.
+# Column# 2~32 = the left-half columns of the row.
+# Column# 33 = the middle column of the row.
+# Column# 34~64, which are the right-half columns, are not stored, because they are symmetric/anti-symmetric
+#           of the elements in the column# 32~2, respectively.
+# Matrix starts:
+	S	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02	+1.587302E-02
+	A	-1.488095E-03	-1.440092E-03	-1.392089E-03	-1.344086E-03	-1.296083E-03	-1.248080E-03	-1.200077E-03	-1.152074E-03	-1.104071E-03	-1.056068E-03	-1.008065E-03	-9.600614E-04	-9.120584E-04	-8.640553E-04	-8.160522E-04	-7.680492E-04	-7.200461E-04	-6.720430E-04	-6.240399E-04	-5.760369E-04	-5.280338E-04	-4.800307E-04	-4.320276E-04	-3.840246E-04	-3.360215E-04	-2.880184E-04	-2.400154E-04	-1.920123E-04	-1.440092E-04	-9.600614E-05	-4.800307E-05	+0.000000E+00
+# Matrix ends.
+#
+#
+# ---------------------------------- LICENSE NOTICE -----------------------------------
+# THIS DATA IS RELEASED UNDER THE CREATIVE COMMONS LICENSE "CC BY-NC-SA 4.0".
+#   This license lets you remix, tweak, and build upon this work non-commercially,
+#   as long as you credit me and license your new creations under the terms identical
+#   to the current license.
+# SEE "https://creativecommons.org/licenses/by-nc-sa/4.0" FOR DETAILS.
+#
+# RELEASED BY: Chandra Shekhar
+#      E-mail: chandraiitk[AT]yahoo[DOT]co[DOT]in
+#    Homepage: https://sites.google.com/site/chandraacads
+# FOR ANY QUESTION OR COMMENT, OR FOR A COMMERCIAL LICENSE, PLEASE EMAIL ME.
+#
+# For additional details, please visit my homepage.
+#
+# ==================================== End of File ====================================

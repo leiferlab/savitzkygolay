@@ -1,0 +1,37 @@
+# ================================== Start of File ====================================
+# Spatial dimensions = 1
+# Kernel size = 13
+# Polynomial order = 3
+# Size of the convolution coefficient matrix = 4x13
+#
+# Column# 1:
+#    S/A => The left and the right halves of the row are symmetric(S)/anti-symmetric(A) about the middle column.
+#           If symmetric elements on the right half, their signs are same as the corresponding elements on the left side.
+#           If anti-symmetric elements, the signs are opposite.
+# Column# 2~7 = the left-half columns of the row.
+# Column# 8 = the middle column of the row.
+# Column# 9~14, which are the right-half columns, are not stored, because they are symmetric/anti-symmetric
+#           of the elements in the column# 7~2, respectively.
+# Matrix starts:
+	S	-7.692308E-02	+0.000000E+00	+6.293706E-02	+1.118881E-01	+1.468531E-01	+1.678322E-01	+1.748252E-01
+	A	+4.716117E-02	-2.747253E-02	-6.568432E-02	-7.475857E-02	-6.197969E-02	-3.463203E-02	+0.000000E+00
+	S	+1.098901E-02	+5.494505E-03	+9.990010E-04	-2.497502E-03	-4.995005E-03	-6.493506E-03	-6.993007E-03
+	A	-3.205128E-03	+0.000000E+00	+1.748252E-03	+2.331002E-03	+2.039627E-03	+1.165501E-03	+0.000000E+00
+# Matrix ends.
+#
+#
+# ---------------------------------- LICENSE NOTICE -----------------------------------
+# THIS DATA IS RELEASED UNDER THE CREATIVE COMMONS LICENSE "CC BY-NC-SA 4.0".
+#   This license lets you remix, tweak, and build upon this work non-commercially,
+#   as long as you credit me and license your new creations under the terms identical
+#   to the current license.
+# SEE "https://creativecommons.org/licenses/by-nc-sa/4.0" FOR DETAILS.
+#
+# RELEASED BY: Chandra Shekhar
+#      E-mail: chandraiitk[AT]yahoo[DOT]co[DOT]in
+#    Homepage: https://sites.google.com/site/chandraacads
+# FOR ANY QUESTION OR COMMENT, OR FOR A COMMERCIAL LICENSE, PLEASE EMAIL ME.
+#
+# For additional details, please visit my homepage.
+#
+# ==================================== End of File ====================================

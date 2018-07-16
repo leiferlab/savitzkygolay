@@ -1,0 +1,39 @@
+# ================================== Start of File ====================================
+# Spatial dimensions = 1
+# Kernel size = 47
+# Polynomial order = 5
+# Size of the convolution coefficient matrix = 6x47
+#
+# Column# 1:
+#    S/A => The left and the right halves of the row are symmetric(S)/anti-symmetric(A) about the middle column.
+#           If symmetric elements on the right half, their signs are same as the corresponding elements on the left side.
+#           If anti-symmetric elements, the signs are opposite.
+# Column# 2~24 = the left-half columns of the row.
+# Column# 25 = the middle column of the row.
+# Column# 26~48, which are the right-half columns, are not stored, because they are symmetric/anti-symmetric
+#           of the elements in the column# 24~2, respectively.
+# Matrix starts:
+	S	+2.950116E-02	+1.072770E-02	-3.277907E-03	-1.305203E-02	-1.910611E-02	-2.192663E-02	-2.197514E-02	-1.968823E-02	-1.547754E-02	-9.729770E-03	-2.806664E-03	+4.954976E-03	+1.324330E-02	+2.177140E-02	+3.027733E-02	+3.852407E-02	+4.629957E-02	+5.341672E-02	+5.971335E-02	+6.505225E-02	+6.932115E-02	+7.243273E-02	+7.432463E-02	+7.495942E-02
+	A	-7.912432E-03	-1.090329E-03	+3.207891E-03	+5.474254E-03	+6.148140E-03	+5.618787E-03	+4.227801E-03	+2.271662E-03	+4.230307E-06	-2.360745E-03	-4.647121E-03	-6.713852E-03	-8.452483E-03	-9.784644E-03	-1.065954E-02	-1.105145E-02	-1.095722E-02	-1.039373E-02	-9.395439E-03	-8.011827E-03	-6.304917E-03	-4.346760E-03	-2.216926E-03	+0.000000E+00
+	S	-7.844627E-04	-3.607965E-04	-2.736987E-05	+2.255549E-04	+4.072625E-04	+5.265850E-04	+5.919013E-04	+6.111374E-04	+5.917665E-04	+5.408088E-04	+4.648317E-04	+3.699494E-04	+2.618235E-04	+1.456626E-04	+2.622217E-05	-9.219495E-05	-2.057390E-04	-3.110131E-04	-4.050733E-04	-4.854285E-04	-5.500406E-04	-5.973244E-04	-6.261476E-04	-6.358308E-04
+	A	+9.034301E-05	+2.151220E-05	-2.458306E-05	-5.217661E-05	-6.505573E-05	-6.658242E-05	-5.971460E-05	-4.702745E-05	-3.073461E-05	-1.270949E-05	+5.493457E-06	+2.261753E-05	+3.768245E-05	+4.996312E-05	+5.896839E-05	+6.441973E-05	+6.623001E-05	+6.448221E-05	+5.940820E-05	+5.136740E-05	+4.082558E-05	+2.833357E-05	+1.450600E-05	+0.000000E+00
+	S	+2.234937E-06	+1.263225E-06	+4.858558E-07	-1.177832E-07	-5.673453E-07	-8.815252E-07	-1.078059E-06	-1.173723E-06	-1.184338E-06	-1.124761E-06	-1.008895E-06	-8.496826E-07	-6.591067E-07	-4.481925E-07	-2.270066E-07	-4.656546E-09	+2.107087E-07	+4.118989E-07	+5.926824E-07	+7.477865E-07	+8.728969E-07	+9.646582E-07	+1.020674E-06	+1.039505E-06
+	A	-1.891100E-07	-6.577740E-08	+1.918507E-08	+7.275379E-08	+1.011750E-07	+1.099998E-07	+1.041186E-07	+8.779590E-08	+6.470544E-08	+3.796454E-08	+1.016907E-08	-1.657182E-08	-4.060097E-08	-6.067837E-08	-7.594647E-08	-8.589536E-08	-9.032803E-08	-8.932561E-08	-8.321258E-08	-7.252201E-08	-5.796083E-08	-4.037499E-08	-2.071478E-08	+0.000000E+00
+# Matrix ends.
+#
+#
+# ---------------------------------- LICENSE NOTICE -----------------------------------
+# THIS DATA IS RELEASED UNDER THE CREATIVE COMMONS LICENSE "CC BY-NC-SA 4.0".
+#   This license lets you remix, tweak, and build upon this work non-commercially,
+#   as long as you credit me and license your new creations under the terms identical
+#   to the current license.
+# SEE "https://creativecommons.org/licenses/by-nc-sa/4.0" FOR DETAILS.
+#
+# RELEASED BY: Chandra Shekhar
+#      E-mail: chandraiitk[AT]yahoo[DOT]co[DOT]in
+#    Homepage: https://sites.google.com/site/chandraacads
+# FOR ANY QUESTION OR COMMENT, OR FOR A COMMERCIAL LICENSE, PLEASE EMAIL ME.
+#
+# For additional details, please visit my homepage.
+#
+# ==================================== End of File ====================================

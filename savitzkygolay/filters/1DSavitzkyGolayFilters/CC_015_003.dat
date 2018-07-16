@@ -1,0 +1,37 @@
+# ================================== Start of File ====================================
+# Spatial dimensions = 1
+# Kernel size = 15
+# Polynomial order = 3
+# Size of the convolution coefficient matrix = 4x15
+#
+# Column# 1:
+#    S/A => The left and the right halves of the row are symmetric(S)/anti-symmetric(A) about the middle column.
+#           If symmetric elements on the right half, their signs are same as the corresponding elements on the left side.
+#           If anti-symmetric elements, the signs are opposite.
+# Column# 2~8 = the left-half columns of the row.
+# Column# 9 = the middle column of the row.
+# Column# 10~16, which are the right-half columns, are not stored, because they are symmetric/anti-symmetric
+#           of the elements in the column# 8~2, respectively.
+# Matrix starts:
+	S	-7.058824E-02	-1.176471E-02	+3.800905E-02	+7.873303E-02	+1.104072E-01	+1.330317E-01	+1.466063E-01	+1.511312E-01
+	A	+3.867102E-02	-1.233271E-02	-4.234600E-02	-5.486725E-02	-5.339486E-02	-4.142725E-02	-2.246283E-02	+0.000000E+00
+	S	+7.352941E-03	+4.201681E-03	+1.535229E-03	-6.464124E-04	-2.343245E-03	-3.555268E-03	-4.282482E-03	-4.524887E-03
+	A	-1.906318E-03	-2.723312E-04	+7.331993E-04	+1.215016E-03	+1.277862E-03	+1.026479E-03	+5.656109E-04	+0.000000E+00
+# Matrix ends.
+#
+#
+# ---------------------------------- LICENSE NOTICE -----------------------------------
+# THIS DATA IS RELEASED UNDER THE CREATIVE COMMONS LICENSE "CC BY-NC-SA 4.0".
+#   This license lets you remix, tweak, and build upon this work non-commercially,
+#   as long as you credit me and license your new creations under the terms identical
+#   to the current license.
+# SEE "https://creativecommons.org/licenses/by-nc-sa/4.0" FOR DETAILS.
+#
+# RELEASED BY: Chandra Shekhar
+#      E-mail: chandraiitk[AT]yahoo[DOT]co[DOT]in
+#    Homepage: https://sites.google.com/site/chandraacads
+# FOR ANY QUESTION OR COMMENT, OR FOR A COMMERCIAL LICENSE, PLEASE EMAIL ME.
+#
+# For additional details, please visit my homepage.
+#
+# ==================================== End of File ====================================

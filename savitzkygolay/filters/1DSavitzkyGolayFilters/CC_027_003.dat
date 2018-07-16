@@ -1,0 +1,37 @@
+# ================================== Start of File ====================================
+# Spatial dimensions = 1
+# Kernel size = 27
+# Polynomial order = 3
+# Size of the convolution coefficient matrix = 4x27
+#
+# Column# 1:
+#    S/A => The left and the right halves of the row are symmetric(S)/anti-symmetric(A) about the middle column.
+#           If symmetric elements on the right half, their signs are same as the corresponding elements on the left side.
+#           If anti-symmetric elements, the signs are opposite.
+# Column# 2~14 = the left-half columns of the row.
+# Column# 15 = the middle column of the row.
+# Column# 16~28, which are the right-half columns, are not stored, because they are symmetric/anti-symmetric
+#           of the elements in the column# 14~2, respectively.
+# Matrix starts:
+	S	-4.597701E-02	-2.681992E-02	-9.195402E-03	+6.896552E-03	+2.145594E-02	+3.448276E-02	+4.597701E-02	+5.593870E-02	+6.436782E-02	+7.126437E-02	+7.662835E-02	+8.045977E-02	+8.275862E-02	+8.352490E-02
+	A	+1.526485E-02	+5.167034E-03	-2.789122E-03	-8.782086E-03	-1.299033E-02	-1.559233E-02	-1.676655E-02	-1.669146E-02	-1.554554E-02	-1.350727E-02	-1.075510E-02	-7.467522E-03	-3.822997E-03	+0.000000E+00
+	S	+1.368363E-03	+1.052587E-03	+7.620732E-04	+4.968212E-04	+2.568313E-04	+4.210349E-05	-1.473622E-04	-3.115658E-04	-4.505073E-04	-5.641868E-04	-6.526041E-04	-7.157593E-04	-7.536525E-04	-7.662835E-04
+	A	-2.128565E-04	-1.146151E-04	-3.602188E-05	+2.456037E-05	+6.876903E-05	+9.824148E-05	+1.146151E-04	+1.195271E-04	+1.146151E-04	+1.015162E-04	+8.186790E-05	+5.730753E-05	+2.947244E-05	+0.000000E+00
+# Matrix ends.
+#
+#
+# ---------------------------------- LICENSE NOTICE -----------------------------------
+# THIS DATA IS RELEASED UNDER THE CREATIVE COMMONS LICENSE "CC BY-NC-SA 4.0".
+#   This license lets you remix, tweak, and build upon this work non-commercially,
+#   as long as you credit me and license your new creations under the terms identical
+#   to the current license.
+# SEE "https://creativecommons.org/licenses/by-nc-sa/4.0" FOR DETAILS.
+#
+# RELEASED BY: Chandra Shekhar
+#      E-mail: chandraiitk[AT]yahoo[DOT]co[DOT]in
+#    Homepage: https://sites.google.com/site/chandraacads
+# FOR ANY QUESTION OR COMMENT, OR FOR A COMMERCIAL LICENSE, PLEASE EMAIL ME.
+#
+# For additional details, please visit my homepage.
+#
+# ==================================== End of File ====================================

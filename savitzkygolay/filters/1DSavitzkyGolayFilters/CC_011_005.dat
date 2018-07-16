@@ -1,0 +1,39 @@
+# ================================== Start of File ====================================
+# Spatial dimensions = 1
+# Kernel size = 11
+# Polynomial order = 5
+# Size of the convolution coefficient matrix = 6x11
+#
+# Column# 1:
+#    S/A => The left and the right halves of the row are symmetric(S)/anti-symmetric(A) about the middle column.
+#           If symmetric elements on the right half, their signs are same as the corresponding elements on the left side.
+#           If anti-symmetric elements, the signs are opposite.
+# Column# 2~6 = the left-half columns of the row.
+# Column# 7 = the middle column of the row.
+# Column# 8~12, which are the right-half columns, are not stored, because they are symmetric/anti-symmetric
+#           of the elements in the column# 6~2, respectively.
+# Matrix starts:
+	S	+4.195804E-02	-1.048951E-01	-2.331002E-02	+1.398601E-01	+2.797203E-01	+3.333333E-01
+	A	-3.339161E-02	+1.262238E-01	-7.278555E-02	-2.199301E-01	-1.797203E-01	+0.000000E+00
+	S	-2.622378E-02	+5.069930E-02	+4.254079E-02	+2.913753E-04	-3.962704E-02	-5.536131E-02
+	A	+9.396853E-03	-2.928322E-02	-8.012821E-04	+2.476690E-02	+2.301865E-02	+0.000000E+00
+	S	+1.748252E-03	-1.748252E-03	-1.748252E-03	-2.913753E-04	+1.165501E-03	+1.748252E-03
+	A	-4.807692E-04	+9.615385E-04	+1.602564E-04	-6.410256E-04	-6.410256E-04	+0.000000E+00
+# Matrix ends.
+#
+#
+# ---------------------------------- LICENSE NOTICE -----------------------------------
+# THIS DATA IS RELEASED UNDER THE CREATIVE COMMONS LICENSE "CC BY-NC-SA 4.0".
+#   This license lets you remix, tweak, and build upon this work non-commercially,
+#   as long as you credit me and license your new creations under the terms identical
+#   to the current license.
+# SEE "https://creativecommons.org/licenses/by-nc-sa/4.0" FOR DETAILS.
+#
+# RELEASED BY: Chandra Shekhar
+#      E-mail: chandraiitk[AT]yahoo[DOT]co[DOT]in
+#    Homepage: https://sites.google.com/site/chandraacads
+# FOR ANY QUESTION OR COMMENT, OR FOR A COMMERCIAL LICENSE, PLEASE EMAIL ME.
+#
+# For additional details, please visit my homepage.
+#
+# ==================================== End of File ====================================

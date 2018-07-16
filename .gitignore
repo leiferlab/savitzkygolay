@@ -1,2 +1,3 @@
 build/
 savitzkygolay/__pycache__
+test.py

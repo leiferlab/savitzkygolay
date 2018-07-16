@@ -1,0 +1,37 @@
+# ================================== Start of File ====================================
+# Spatial dimensions = 1
+# Kernel size = 39
+# Polynomial order = 3
+# Size of the convolution coefficient matrix = 4x39
+#
+# Column# 1:
+#    S/A => The left and the right halves of the row are symmetric(S)/anti-symmetric(A) about the middle column.
+#           If symmetric elements on the right half, their signs are same as the corresponding elements on the left side.
+#           If anti-symmetric elements, the signs are opposite.
+# Column# 2~20 = the left-half columns of the row.
+# Column# 21 = the middle column of the row.
+# Column# 22~40, which are the right-half columns, are not stored, because they are symmetric/anti-symmetric
+#           of the elements in the column# 20~2, respectively.
+# Matrix starts:
+	S	-3.377111E-02	-2.439024E-02	-1.551645E-02	-7.149739E-03	+7.099031E-04	+8.062471E-03	+1.490797E-02	+2.124639E-02	+2.707773E-02	+3.240201E-02	+3.721921E-02	+4.152933E-02	+4.533239E-02	+4.862837E-02	+5.141727E-02	+5.369910E-02	+5.547386E-02	+5.674154E-02	+5.750216E-02	+5.775569E-02
+	A	+8.025849E-03	+4.479225E-03	+1.439229E-03	-1.122284E-03	-3.233460E-03	-4.922445E-03	-6.217386E-03	-7.146428E-03	-7.737717E-03	-8.019400E-03	-8.019622E-03	-7.766530E-03	-7.288270E-03	-6.612987E-03	-5.768828E-03	-4.783939E-03	-3.686465E-03	-2.504554E-03	-1.266350E-03	+0.000000E+00
+	S	+4.690432E-04	+3.949837E-04	+3.249275E-04	+2.588745E-04	+1.968247E-04	+1.387781E-04	+8.473468E-05	+3.469451E-05	-1.134244E-05	-5.337618E-05	-9.140670E-05	-1.254340E-04	-1.554581E-04	-1.814790E-04	-2.034967E-04	-2.215111E-04	-2.355224E-04	-2.455304E-04	-2.515352E-04	-2.535368E-04
+	A	-5.211591E-05	-3.565825E-05	-2.142460E-05	-9.291409E-06	+8.648918E-07	+9.167853E-06	+1.574103E-05	+2.070798E-05	+2.419226E-05	+2.631742E-05	+2.720702E-05	+2.698462E-05	+2.577377E-05	+2.369803E-05	+2.088096E-05	+1.744610E-05	+1.351702E-05	+9.217275E-06	+4.670415E-06	+0.000000E+00
+# Matrix ends.
+#
+#
+# ---------------------------------- LICENSE NOTICE -----------------------------------
+# THIS DATA IS RELEASED UNDER THE CREATIVE COMMONS LICENSE "CC BY-NC-SA 4.0".
+#   This license lets you remix, tweak, and build upon this work non-commercially,
+#   as long as you credit me and license your new creations under the terms identical
+#   to the current license.
+# SEE "https://creativecommons.org/licenses/by-nc-sa/4.0" FOR DETAILS.
+#
+# RELEASED BY: Chandra Shekhar
+#      E-mail: chandraiitk[AT]yahoo[DOT]co[DOT]in
+#    Homepage: https://sites.google.com/site/chandraacads
+# FOR ANY QUESTION OR COMMENT, OR FOR A COMMERCIAL LICENSE, PLEASE EMAIL ME.
+#
+# For additional details, please visit my homepage.
+#
+# ==================================== End of File ====================================

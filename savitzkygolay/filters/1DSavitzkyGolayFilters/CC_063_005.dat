@@ -1,0 +1,39 @@
+# ================================== Start of File ====================================
+# Spatial dimensions = 1
+# Kernel size = 63
+# Polynomial order = 5
+# Size of the convolution coefficient matrix = 6x63
+#
+# Column# 1:
+#    S/A => The left and the right halves of the row are symmetric(S)/anti-symmetric(A) about the middle column.
+#           If symmetric elements on the right half, their signs are same as the corresponding elements on the left side.
+#           If anti-symmetric elements, the signs are opposite.
+# Column# 2~32 = the left-half columns of the row.
+# Column# 33 = the middle column of the row.
+# Column# 34~64, which are the right-half columns, are not stored, because they are symmetric/anti-symmetric
+#           of the elements in the column# 32~2, respectively.
+# Matrix starts:
+	S	+2.378219E-02	+1.268383E-02	+3.643286E-03	-3.508847E-03	-8.936217E-03	-1.279673E-02	-1.524256E-02	-1.642012E-02	-1.647010E-02	-1.552743E-02	-1.372132E-02	-1.117522E-02	-8.006844E-03	-4.328163E-03	-2.454074E-04	+4.140937E-03	+8.736124E-03	+1.345115E-02	+1.820276E-02	+2.291343E-02	+2.751138E-02	+3.193058E-02	+3.611074E-02	+3.999731E-02	+4.354147E-02	+4.670017E-02	+4.943608E-02	+5.171762E-02	+5.351894E-02	+5.481996E-02	+5.560631E-02	+5.586938E-02
+	A	-4.886113E-03	-1.795776E-03	+4.587987E-04	+1.996687E-03	+2.927687E-03	+3.352642E-03	+3.363757E-03	+3.044922E-03	+2.472029E-03	+1.713293E-03	+8.295738E-04	-1.253077E-04	-1.104247E-03	-2.066538E-03	-2.977550E-03	-3.808413E-03	-4.535692E-03	-5.141071E-03	-5.611033E-03	-5.936538E-03	-6.112704E-03	-6.138488E-03	-6.016367E-03	-5.752014E-03	-5.353982E-03	-4.833384E-03	-4.203571E-03	-3.479813E-03	-2.678980E-03	-1.819221E-03	-9.196445E-04	+0.000000E+00
+	S	-3.473672E-04	-2.094654E-04	-9.318107E-05	+3.195545E-06	+8.131604E-05	+1.427741E-04	+1.891055E-04	+2.217880E-04	+2.422415E-04	+2.518278E-04	+2.518508E-04	+2.435566E-04	+2.281332E-04	+2.067106E-04	+1.803609E-04	+1.500984E-04	+1.168793E-04	+8.160171E-05	+4.510610E-05	+8.174765E-06	-2.846788E-05	-6.415537E-05	-9.827922E-05	-1.302889E-04	-1.596917E-04	-1.860532E-04	-2.089965E-04	-2.282029E-04	-2.434117E-04	-2.544200E-04	-2.610829E-04	-2.633136E-04
+	A	+3.061807E-05	+1.345307E-05	+4.587132E-07	-8.933937E-06	-1.525008E-05	-1.897272E-05	-2.054414E-05	-2.036743E-05	-1.880801E-05	-1.619509E-05	-1.282322E-05	-8.953800E-06	-4.816541E-06	-6.110222E-07	+3.491826E-06	+7.348207E-06	+1.083996E-05	+1.387303E-05	+1.637599E-05	+1.829851E-05	+1.960986E-05	+2.029741E-05	+2.036510E-05	+1.983195E-05	+1.873056E-05	+1.710556E-05	+1.501216E-05	+1.251461E-05	+9.684692E-06	+6.600224E-06	+3.343542E-06	+0.000000E+00
+	S	+5.436106E-07	+3.682524E-07	+2.187666E-07	+9.314111E-08	-1.056827E-08	-9.423740E-08	-1.596740E-07	-2.086174E-07	-2.427389E-07	-2.636416E-07	-2.728602E-07	-2.718613E-07	-2.620434E-07	-2.447366E-07	-2.212028E-07	-1.926359E-07	-1.601612E-07	-1.248362E-07	-8.764990E-08	-4.952324E-08	-1.130888E-08	+2.620873E-08	+6.231333E-08	+9.635691E-08	+1.277596E-07	+1.560099E-07	+1.806643E-07	+2.013477E-07	+2.177532E-07	+2.296419E-07	+2.368433E-07	+2.392551E-07
+	A	-3.517480E-08	-1.815474E-08	-5.040916E-09	+4.687494E-09	+1.151160E-08	+1.587415E-08	+1.818093E-08	+1.880207E-08	+1.807350E-08	+1.629823E-08	+1.374781E-08	+1.066361E-08	+7.258271E-09	+3.717015E-09	+1.990466E-10	-3.161089E-09	-6.252133E-09	-8.984744E-09	-1.129012E-08	-1.311866E-08	-1.443854E-08	-1.523439E-08	-1.550590E-08	-1.526648E-08	-1.454184E-08	-1.336866E-08	-1.179322E-08	-9.869990E-09	-7.660321E-09	-5.231026E-09	-2.653031E-09	+0.000000E+00
+# Matrix ends.
+#
+#
+# ---------------------------------- LICENSE NOTICE -----------------------------------
+# THIS DATA IS RELEASED UNDER THE CREATIVE COMMONS LICENSE "CC BY-NC-SA 4.0".
+#   This license lets you remix, tweak, and build upon this work non-commercially,
+#   as long as you credit me and license your new creations under the terms identical
+#   to the current license.
+# SEE "https://creativecommons.org/licenses/by-nc-sa/4.0" FOR DETAILS.
+#
+# RELEASED BY: Chandra Shekhar
+#      E-mail: chandraiitk[AT]yahoo[DOT]co[DOT]in
+#    Homepage: https://sites.google.com/site/chandraacads
+# FOR ANY QUESTION OR COMMENT, OR FOR A COMMERCIAL LICENSE, PLEASE EMAIL ME.
+#
+# For additional details, please visit my homepage.
+#
+# ==================================== End of File ====================================

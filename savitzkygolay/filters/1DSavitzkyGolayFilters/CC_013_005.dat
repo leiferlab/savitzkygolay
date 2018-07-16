@@ -1,0 +1,39 @@
+# ================================== Start of File ====================================
+# Spatial dimensions = 1
+# Kernel size = 13
+# Polynomial order = 5
+# Size of the convolution coefficient matrix = 6x13
+#
+# Column# 1:
+#    S/A => The left and the right halves of the row are symmetric(S)/anti-symmetric(A) about the middle column.
+#           If symmetric elements on the right half, their signs are same as the corresponding elements on the left side.
+#           If anti-symmetric elements, the signs are opposite.
+# Column# 2~7 = the left-half columns of the row.
+# Column# 8 = the middle column of the row.
+# Column# 9~14, which are the right-half columns, are not stored, because they are symmetric/anti-symmetric
+#           of the elements in the column# 7~2, respectively.
+# Matrix starts:
+	S	+4.524887E-02	-8.144796E-02	-5.553270E-02	+4.524887E-02	+1.604278E-01	+2.468120E-01	+2.784862E-01
+	A	-3.306938E-02	+9.287330E-02	-4.113534E-05	-1.148739E-01	-1.567976E-01	-1.075689E-01	+0.000000E+00
+	S	-1.894796E-02	+2.545249E-02	+3.002879E-02	+1.383176E-02	-8.321336E-03	-2.584670E-02	-3.239408E-02
+	A	+6.127451E-03	-1.399887E-02	-5.887495E-03	+6.997292E-03	+1.306904E-02	+9.649664E-03	+0.000000E+00
+	S	+8.484163E-04	-5.656109E-04	-8.227067E-04	-4.627725E-04	+9.426848E-05	+5.484711E-04	+7.198684E-04
+	A	-2.073906E-04	+3.110860E-04	+1.696833E-04	-1.036953E-04	-2.450980E-04	-1.885370E-04	+0.000000E+00
+# Matrix ends.
+#
+#
+# ---------------------------------- LICENSE NOTICE -----------------------------------
+# THIS DATA IS RELEASED UNDER THE CREATIVE COMMONS LICENSE "CC BY-NC-SA 4.0".
+#   This license lets you remix, tweak, and build upon this work non-commercially,
+#   as long as you credit me and license your new creations under the terms identical
+#   to the current license.
+# SEE "https://creativecommons.org/licenses/by-nc-sa/4.0" FOR DETAILS.
+#
+# RELEASED BY: Chandra Shekhar
+#      E-mail: chandraiitk[AT]yahoo[DOT]co[DOT]in
+#    Homepage: https://sites.google.com/site/chandraacads
+# FOR ANY QUESTION OR COMMENT, OR FOR A COMMERCIAL LICENSE, PLEASE EMAIL ME.
+#
+# For additional details, please visit my homepage.
+#
+# ==================================== End of File ====================================
