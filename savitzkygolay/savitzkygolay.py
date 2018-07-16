@@ -38,7 +38,9 @@ def filter2D(A, mu, poly, order=0):
     Parameters
     ----------
     A: numpy array
-        Input 2D array (image) to be filtered.
+        Input 2D array (image) to be filtered. The function accepts stacks of
+        images with shapes (x,y,z). If a stack of images is passed, the 
+        filtering will take place only in the (x,y) planes separately.
     mu: int
         Size of the mu*mu kernel.
     poly: int
