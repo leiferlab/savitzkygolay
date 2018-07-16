@@ -87,11 +87,11 @@ def filter3D(A, mu, poly, order=0):
     '''
     
     C = get_3D_filter(mu, mu, mu, poly, poly, poly, order)
+    C = C[0]
     B = spconvolve(A,C)
     
     return B
     
-
 def get_1D_filter(mu,poly,order=0):
     '''
     Loads the 1D Savitzky-Golay filter of size mu with poly-th polynomial 
@@ -211,10 +211,38 @@ def get_2D_filter(mu, poly, order=0):
     return C
 
 def get_3D_filter(mu, nu, rho, polyx, polyy, polyz, order):
+    '''
+    Loads the 3D Savitzky-Golay filter of size mu with poly-th polynomial 
+    order.
+    
+    Parameters
+    ----------
+    mu: int
+        Size of the kernel along the first dimension.
+    nu: int
+        Size of the kernel along the second dimension.
+    rho: int
+        Size of the kernel along the third dimension.
+    polyx: int
+        Order of the best-fit polynomial to be used along the first dimension.
+    polyy: int
+        Order of the best-fit polynomial to be used along the second dimension.
+    polyz: int
+        Order of the best-fit polynomial to be used along the third dimension.
+    order: int
+        Order of the derivative to be calculated. oder=0 returns the filter to
+        calculate the filtered value at the central node of the kernel.
+        
+    Returns
+    -------
+    C:
+        A numpy array of shape (3, mu, nu, rho) containing the desired filter.
+        If order is 0, then pick only C[0,...].
+    '''
 
     folder = pkg_resources.resource_filename('savitzkygolay', 'filters/')
 
-    f = open('3DSavitzkyGolayFilters/CC_00'+str(mu)+'x00'+str(nu)+'x00'+ \
+    f = open(folder+'3DSavitzkyGolayFilters/CC_00'+str(mu)+'x00'+str(nu)+'x00'+ \
         str(rho)+'_00'+str(polyx)+'x00'+str(polyy)+'x00'+str(polyz)+'.dat','r')
         
     #Go through file
@@ -225,9 +253,9 @@ def get_3D_filter(mu, nu, rho, polyx, polyy, polyz, order):
             
     #Jump to coefficient you want to calculate
     #k+j*nu+i*nu*rho with k,j,i=200,020,002
-    l0 = 2
-    l1 = 2*nu
-    l2 = 2*nu*rho
+    l0 = order
+    l1 = order*nu
+    l2 = order*nu*rho
 
     L = [l0,l1,l2]
     q = len(L)
@@ -250,7 +278,7 @@ def get_3D_filter(mu, nu, rho, polyx, polyy, polyz, order):
         p += 1
     f.close()
         
-    return C
+    return C.reshape((q,mu,nu,rho))
     
 def get_1D_derivative(mu=5, poly=3, order=2):
     '''
