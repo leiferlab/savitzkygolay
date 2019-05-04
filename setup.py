@@ -9,6 +9,6 @@ setup(name='savitzkygolay',
       author_email='francesco.randi@gmail.com',
       packages=['savitzkygolay'],
       package_data={'savitzkygolay': ['filters/1DSavitzkyGolayFilters/*.dat',
-                                      'filters/2DSavitzkyGolayFilters/*.dat'
+                                      'filters/2DSavitzkyGolayFilters/*.dat',
                                       'filters/3DSavitzkyGolayFilters/*.dat',]}
 )
