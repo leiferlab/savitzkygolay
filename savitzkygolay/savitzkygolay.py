@@ -134,7 +134,7 @@ def get_1D_filter(mu,poly,order=0):
     s = f.readline()
     s = s.split('\t')
     symmetry = s[1]
-    s = np.array(s[2:]).astype(np.float)
+    s = np.array(s[2:]).astype(float)
 
     #Populate second half based on symmetry (centred filters, leave central 
     #col out)
@@ -197,7 +197,7 @@ def get_2D_filter(mu, poly, order=0):
     symmetry = s[1]
     
     #Populate the first half of the filter from the stored numbers.
-    s = np.array(s[2:]).astype(np.float)
+    s = np.array(s[2:]).astype(float)
 
     #Populate  thesecond half based on symmetry. These are centred filters, so
     #leave the central column out.
@@ -266,7 +266,7 @@ def get_3D_filter(mu, nu, rho, polyx, polyy, polyz, order):
         s = S[l]
         s = s.split('\t')
         symmetry = s[1]
-        s = np.array(s[2:]).astype(np.float)
+        s = np.array(s[2:]).astype(float)
 
         #Populate second half based on symmetry (centred filters, leave central 
         #col out)
